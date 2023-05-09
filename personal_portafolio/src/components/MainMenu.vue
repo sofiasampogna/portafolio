@@ -4,8 +4,9 @@
 <template>
   <MenuItem>
     <h1>
-        <RouterLink to="/">Home</RouterLink><br>
-        <RouterLink to="/about">About</RouterLink>
+        <RouterLink to="/ABOUT">ABOUT</RouterLink><br>
+        <RouterLink to="/">EDUCATION</RouterLink><br>
+        <RouterLink to="/">EXPERIENCE</RouterLink>
     </h1>
   </MenuItem>
 
@@ -13,7 +14,8 @@
 
 <style scoped>
 h1 {
-  font-size: 6rem;
-  top: 10px;
+  font-size: 8rem;
+  font-family: 'oregon_ldo_bookregular';
+  letter-spacing: 0.1em;
 }
 </style>

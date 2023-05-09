@@ -6,7 +6,7 @@ import Introduction from './components/Introduction.vue'
 <template>
   <header>
     <div class="wrapper">
-      <Introduction msg="Sofía Sampogna Montemayor" />
+      <Introduction msg="SOFIA SAMPOGNA" />
     </div>
   </header>
   <RouterView />
@@ -14,8 +14,9 @@ import Introduction from './components/Introduction.vue'
 
 <style scoped>
 header {
-  line-height: 1.5;
+  line-height: 1;
   max-height: 100vh;
+  font-family: sans-serif;
 }
 
 nav {
