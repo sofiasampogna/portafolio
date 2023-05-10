@@ -3,19 +3,23 @@
 
 <template>
   <MenuItem>
-    <h1>
+    <div class="nav-right">
+        <div class="nav-right-item">
         <RouterLink to="/ABOUT">ABOUT</RouterLink><br>
+        </div>
+        <div class="nav-right-item">
         <RouterLink to="/">EDUCATION</RouterLink><br>
-        <RouterLink to="/">EXPERIENCE</RouterLink>
-    </h1>
+        </div>
+        <div class="nav-right-item">
+        <RouterLink to="/">EXPERIENCE</RouterLink><br>
+        </div>
+        <div class="nav-right-item">
+        <RouterLink to="/">CONTACT</RouterLink>
+        </div>
+    </div>
   </MenuItem>
 
 </template>
 
 <style scoped>
-h1 {
-  font-size: 8rem;
-  font-family: 'oregon_ldo_bookregular';
-  letter-spacing: 0.1em;
-}
 </style>
