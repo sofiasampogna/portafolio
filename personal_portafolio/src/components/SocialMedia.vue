@@ -11,7 +11,7 @@ import MainMenu from '../components/MainMenu.vue'
             </a>
         </div>
         <div class="nav-left-item">
-            <a href="https://www.linkedin.com/in/sofia-sampogna-montemayor-7b1b3b1b0/" target="_blank">
+            <a href="https://www.linkedin.com/in/sofia-sampogna/" target="_blank">
                 <img src="../assets/icons/linkedin.png" alt="linkedin" width="40" height="40">
             </a>
         </div>

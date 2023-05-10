@@ -4,24 +4,37 @@ import SocialMedia from '../components/SocialMedia.vue'
 
 <template>
     <SocialMedia />
-    <div id="wrapper">
     <div class="experience">
-      <h5>Experience</h5><br>
+      <h5>Work Experience</h5><br>
     </div>
-    <div class="desc">
-      <h2>Computer scientist in training. Special interest in research regarding interdependence between computer science and cognitive science, and the use of technology in the Finance Sector.</h2>
-    </div>
-    <div>
-        <h2>Work Experience:</h2>
+    <div class="list">
         <ul>
-          <li>Software Development Intern, Microsoft. Redmond, Washington. June 2023 - August 2023 (anticipated). </li>
-          <li>Software Development Intern, Intel. Guadalajara, Jalisco. August 2022 - May 2023</li>
-          <li>Software Quality Tester Intern, Epicor, Monterrey, México, December 2021 – June 2022</li>
-          <li>Oracle EDI Support Intern, Schneider Electric, Monterrey, México, July 2021 – January 2022</li>
-          <li>Software Team Leader Intern, Tecnológico de Monterrey, Monterrey, México, January 2021 – August 2021</li>
+          <li>
+            <h1> Microsoft</h1>
+                <h3>Software Development Intern</h3> 
+          </li>
+          <li>
+            <h1>Intel</h1>
+                <h3>Software Development Intern</h3> 
+          </li>
+          <li>
+            <h1>Epicor Software</h1>
+                <h3>Software Quality Tester Intern</h3>
+          </li>
+          <li>
+            <h1>Schneider Electric</h1>
+                <h3>Oracle EDI Support Intern</h3>
+          </li>
+          <li>
+            <h1>Campus City</h1>
+                <h3>Software Team Leader Intern</h3>
+            </li>
+            <li>
+            <h1>NY Institute of Finance</h1>
+                <h3>Mastery Certification in Wealth Management Training Program</h3>
+            </li>
         </ul>
     </div>
-  </div>
 </template>
 
 
@@ -29,9 +42,19 @@ import SocialMedia from '../components/SocialMedia.vue'
 @media (min-width: 1024px) {
   .experience {
     min-height: 100vh;
+    width: 30%;
     display: flex;
     align-items: center;
+    right: 80px;
+    top: 280px
+   
   }
+}
+
+.list{
+    width: 900px;
+    margin: 2px;
+
 }
 
 h5 {
@@ -39,13 +62,12 @@ h5 {
   letter-spacing: 0.1em;
   text-align: left;
   text-transform: uppercase;
-  font-size: 10.5vw;
-  font-weight: 300;
+  font-size: 80px;
   line-height: .85em;
   transition: transform .3s ease-in-out, color .3s ease-in-out, font-size .3s ease-in-out;
   transition: all 0.3s ease-in-out;
-  left: 70px;
   top: -100px;
+  color: #393428;
 }
 
 h2 {
@@ -56,26 +78,40 @@ h2 {
   transition: all 0.3s ease-in-out;
   left: 70px;
   top: -300px;
+
+}
+
+h3 {
+  font-family: sans-serif;
+  font-size: 15px;
+  line-height: 1.2em;
+  text-transform: uppercase;
+  text-decoration: none;
+  display: block;
+  margin-left: 10%;
+
 }
 
 ul {
-  font-family: sans-serif;
-  font-size: 20px;
-  line-height: 1.2em;
-  transition: transform .3s ease-in-out, color .3s ease-in-out, font-size .3s ease-in-out;
-  transition: all 0.3s ease-in-out;
-  left: 0px;
-  top: 120px;
+  height: 90%;
+  flex-direction: column;
+  display: flex;
+  list-style-type: none;  
 }
 
-li {
-  font-family: sans-serif;
-  font-size: 20px;
-  line-height: 1.2em;
+h1{
+font-family: 'oregon_ldo_bookregular';
+  letter-spacing: 0.1em;
+  text-align: left;
+  text-transform: uppercase;
+  font-size: 65px;
+  font-weight: 300;
+  line-height: .90em;
+  text-decoration: none;
   transition: transform .3s ease-in-out, color .3s ease-in-out, font-size .3s ease-in-out;
+  display: block;
   transition: all 0.3s ease-in-out;
-  left: 70px;
-  top: -300px;
+  margin-top: 2%;
 }
 
 </style>

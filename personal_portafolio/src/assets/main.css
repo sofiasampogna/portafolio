@@ -16,7 +16,6 @@ header {
   line-height: 1;
   max-height: 100vh;
   font-family: sans-serif;
-  width: 100%;
 }
 
 nav a:first-of-type {
@@ -43,7 +42,7 @@ header .wrapper {
   position: relative;
   padding-left: 5%;
   transition: all 0.3s ease-in-out;
-  left: 70px;
+  left: -10px;
 }
 
 @media (hover: hover) {
@@ -76,7 +75,7 @@ header .wrapper {
 
   #app {
     display: grid;
-    /*grid-template-columns: ;*/
+      /*grid-template-columns: ;*/
 
   }
 
