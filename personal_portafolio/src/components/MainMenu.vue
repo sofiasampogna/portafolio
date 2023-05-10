@@ -5,16 +5,16 @@
   <MenuItem>
     <div class="nav-right">
         <div class="nav-right-item">
-        <RouterLink to="/ABOUT">ABOUT</RouterLink><br>
+        <RouterLink to="/about">ABOUT</RouterLink><br>
         </div>
         <div class="nav-right-item">
-        <RouterLink to="/">EDUCATION</RouterLink><br>
+        <RouterLink to="/education">EDUCATION</RouterLink><br>
         </div>
         <div class="nav-right-item">
-        <RouterLink to="/">EXPERIENCE</RouterLink><br>
+        <RouterLink to="/experience">EXPERIENCE</RouterLink><br>
         </div>
         <div class="nav-right-item">
-        <RouterLink to="/">CONTACT</RouterLink>
+        <RouterLink to="/contact">CONTACT</RouterLink>
         </div>
     </div>
   </MenuItem>

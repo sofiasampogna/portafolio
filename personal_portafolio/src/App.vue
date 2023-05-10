@@ -5,10 +5,8 @@ import SocialMedia from './components/SocialMedia.vue'
 </script>
 
 <template>
-  <SocialMedia />
   <header>
     <div class="wrapper">
-      <Introduction msg="SOFIA SAMPOGNA MONTEMAYOR" />
     </div>
   <RouterView />
 </header>
@@ -16,7 +14,7 @@ import SocialMedia from './components/SocialMedia.vue'
 
 <style scoped>
 .wrapper {
-  width: 100%;
+  width: 10%;
   height: 100%;
   display: flex;
   justify-content: center;

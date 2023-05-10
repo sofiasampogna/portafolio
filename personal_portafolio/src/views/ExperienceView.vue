@@ -5,31 +5,29 @@ import SocialMedia from '../components/SocialMedia.vue'
 <template>
     <SocialMedia />
     <div id="wrapper">
-    <div class="about">
-      <h5>About Me</h5><br>
+    <div class="experience">
+      <h5>Experience</h5><br>
     </div>
     <div class="desc">
       <h2>Computer scientist in training. Special interest in research regarding interdependence between computer science and cognitive science, and the use of technology in the Finance Sector.</h2>
     </div>
-    <br>
-    <br>
     <div>
-        <h2>Skills and Relevant Knowledge:</h2>
+        <h2>Work Experience:</h2>
         <ul>
-          <li>Programming Languages: C++, Python, R, Java, Swift</li>
-          <li>Web Development: HTML/CSS, JavaScript, React, Angular, Vue and Selenium</li>
-          <li>Database Management: SQL Development, Internet of Things (IoT) knowledge</li>
-          <li>Other Relevant Experience: Data Structures, Algorithm Design, Software Design Methodology, and Technical Writing</li>
+          <li>Software Development Intern, Microsoft. Redmond, Washington. June 2023 - August 2023 (anticipated). </li>
+          <li>Software Development Intern, Intel. Guadalajara, Jalisco. August 2022 - May 2023</li>
+          <li>Software Quality Tester Intern, Epicor, Monterrey, México, December 2021 – June 2022</li>
+          <li>Oracle EDI Support Intern, Schneider Electric, Monterrey, México, July 2021 – January 2022</li>
+          <li>Software Team Leader Intern, Tecnológico de Monterrey, Monterrey, México, January 2021 – August 2021</li>
         </ul>
     </div>
   </div>
-  <img src="../assets/icons/profile.jpg" class="profile">
 </template>
 
 
 <style>
 @media (min-width: 1024px) {
-  .about {
+  .experience {
     min-height: 100vh;
     display: flex;
     align-items: center;
@@ -47,7 +45,7 @@ h5 {
   transition: transform .3s ease-in-out, color .3s ease-in-out, font-size .3s ease-in-out;
   transition: all 0.3s ease-in-out;
   left: 70px;
-  top: 00px;
+  top: -100px;
 }
 
 h2 {
@@ -57,7 +55,7 @@ h2 {
   transition: transform .3s ease-in-out, color .3s ease-in-out, font-size .3s ease-in-out;
   transition: all 0.3s ease-in-out;
   left: 70px;
-  top: -200px;
+  top: -300px;
 }
 
 ul {
@@ -78,18 +76,6 @@ li {
   transition: all 0.3s ease-in-out;
   left: 70px;
   top: -300px;
-}
-
-
-.profile {
-    width: 30%;
-    height: fit-content;
-    margin-top: 0%;
-    margin-left: 10%;
-    top: 0%;
-    bottom: 0%;
-    left: auto;
-    right: 0%;
 }
 
 </style>

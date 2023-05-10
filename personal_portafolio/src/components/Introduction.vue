@@ -18,7 +18,6 @@ defineProps({
 
 <style scoped>
 h2 {
-  margin-left: 20%;
   text-align: left;
   letter-spacing: 4px;
   text-transform: uppercase;
@@ -28,24 +27,21 @@ h2 {
   position: relative;
   font-family: sans-serif;
   font-size: 18px;
-  font-weight: 500;
-  width: 50%;
+  width: 100%;
   top: 100px;
-  left: 30px;
+  left: 0px;
 
 }
 
 h4 {
-  margin-left: 20%;
-  margin-right: 0;
   font-family: sans-serif;
   font-size: 16px;
   font-weight: 400;
   line-height: 1.1em;
   position: relative;
-  width: 90%;
+  width: 100%;
   top: 100px;
-  left: 30px;
+  left: 0px;
   
 
 }

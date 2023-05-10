@@ -81,12 +81,13 @@ header .wrapper {
   }
 
   .nav-left {
+    display: flex;
+    margin-top: 70px;
     z-index: 600;
     height: 100vh;
     flex-direction: column;
     display: flex;
     position: fixed;
-    margin-right: 50%;
 }
 .nav-left-item {
     flex: 0 0;
